@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <main>
+            <div class="password-form">
+                <div class="input-area">
+                    <div class="input-row">
+                        <input type="password" class="password-input" placeholder="Введите пароль..." autocomplete="off">
+                    </div>
+                    <div class="password-output">
+                        <span class="placeholder">здесь будет пароль</span>
+                    </div>
+                </div>
+    
+                <!-- Чекбоксы английских гласных -->
+                <div class="vowels-area">
+                    <label class="vowel-checkbox" data-vowel="a"><input type="checkbox" data-vowel="a"> a</label>
+                    <label class="vowel-checkbox" data-vowel="e"><input type="checkbox" data-vowel="e"> e</label>
+                    <label class="vowel-checkbox" data-vowel="i"><input type="checkbox" data-vowel="i"> i</label>
+                    <label class="vowel-checkbox" data-vowel="o"><input type="checkbox" data-vowel="o"> o</label>
+                    <label class="vowel-checkbox" data-vowel="u"><input type="checkbox" data-vowel="u"> u</label>
+                    <label class="vowel-checkbox" data-vowel="y"><input type="checkbox" data-vowel="y"> y</label>
+                </div>
+    
+                <div class="form-actions">
+                    <button class="btn btn-toggle show-toggle">👁️ Показать</button>
+                    <button class="btn btn-delete delete-form">✕ Удалить</button>
+                </div>
+            </div>
+        </main>
+        <button class="btn-add">Добавить элемент</button>
+        <script src='script.js'></script>
+</body>
+</html>
